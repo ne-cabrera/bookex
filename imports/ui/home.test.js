@@ -1,4 +1,5 @@
 /* eslint-env mocha */
+/*las pruebas deberian estar dentro del if(Meteor.isServer)*/
 import { Meteor } from "meteor/meteor";
 import { mount } from "enzyme";
 import { expect } from "chai";
